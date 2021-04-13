@@ -11,4 +11,9 @@ public class Register {
     public String getUser(){
         return "Hello user";
     }
+
+    @RequestMapping("/index")
+    public String getIndex(){
+        return "index";
+    }
 }
